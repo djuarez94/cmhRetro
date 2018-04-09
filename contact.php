@@ -35,7 +35,7 @@
 		<main>
 			<section>
 				<div class="parallax4 gOverlay">
-					<div class="parallaxText">
+					<div class="parallaxText slideLeft">
 						<h1>Contact Title</h1>
 					</div>
 				</div>
@@ -78,9 +78,10 @@
 					<div class="footerDiv connect">
 						<h4>Connect with me</h4>
 						<div class="sMedia">
-							<a href="#">Facebook</a>
-							<a href="#">Instagram</a>
-							<a href="#">Twitter</a>
+							<a href="#"><i class="fab fa-facebook-square"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-twitter-square"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
 						</div>
 						<div class="contactInfo">
 							<p><i class="fas fa-envelope"></i> cmhretro@gmail.com</p>

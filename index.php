@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/magnific.min.css">
 	</head>
 	<body>
 		<header>
@@ -233,9 +234,11 @@
 						<h3>Follow @cmhretro</h3>
 						<p>This is just placeholder text that is being utilized for layout purposes.</p>
 					</div>
-					<div class="igAPI">
+					<div class="container">
+				      <div id="instafeed" class="row gallery">
 
-					</div>
+				      </div>
+				    </div>
 					<a href="#" class="button">Follow</a>
 				</div>
 			</section>
@@ -275,5 +278,7 @@
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
 	<script src="js/script.js"></script>
+    <script type="text/javascript" src="js/magnific.min.js"></script>
 </html>

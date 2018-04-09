@@ -637,7 +637,6 @@ a.button:hover {
 
 #images {
     position: relative;
-    height: 400px;
     text-align: center;
 }
 
@@ -671,6 +670,20 @@ a.button:hover {
     margin-bottom: 80px;
     display:inline-block;
 }
+
+.instaImg img{
+    margin-bottom: 30px;
+    transition: .5s;
+    width: 100%;
+    position: relative;
+}
+
+.instaImg img:hover {
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -webkit-opacity: 0.8;
+}
+
 
 /*-------------------------------------
 | news.php CSS
