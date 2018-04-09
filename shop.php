@@ -163,8 +163,8 @@
 							<a href="#">Twitter</a>
 						</div>
 						<div class="contactInfo">
-							<p>cmhretro@gmail.com</p>
-							<p>1.562.457.8934</p>
+							<p><i class="fas fa-envelope"></i> cmhretro@gmail.com</p>
+							<p><i class="fas fa-mobile"></i> 1.562.457.8934</p>
 						</div>
 						<div class="back-to-top">
 							<a href="#">Back to top^^^</a>

@@ -291,6 +291,7 @@ visibility: hidden;
 #news {
     position: relative;
     height: 650px;
+    z-index: 2;
 }
 
 .wSkew , .wSkew2 {
@@ -307,6 +308,10 @@ visibility: hidden;
 
 .wSkew2 {
     z-index: 1;
+}
+
+.wSkew {
+    box-shadow: 0px -8px 15px rgba(0,0,0,.5);
 }
 
 #newsCarousel {
@@ -377,10 +382,21 @@ visibility: hidden;
     content: '';
     height: 100%;
     width:100%;
-    background-image: linear-gradient(#000, #31680d 25%);
+    background-image: linear-gradient(#31680d, #31680d);
     transform: skewY(6deg);
     transform-origin: top left;
     z-index: 1;
+    overflow: hidden;
+}
+
+.gSkew:before {
+    content: '';
+    width: 100%;
+    height: 300px;
+    background-color: #999;
+    position: absolute;
+    top: -300px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.8);
 }
 
 #store .items {
@@ -1034,7 +1050,7 @@ footer {
     padding-bottom: 40px;
 }
 
-footer .back-to-top {
+footer .back-to-top {``
     background-color: #fff;
     padding: 10px;
     position: fixed;
@@ -1059,6 +1075,11 @@ footer .pages a {
 
 footer .footerDiv a {
     color: #b000b2;
+    transition: .3s;
+}
+
+footer .footerDiv a:hover {
+    color: #fff;
 }
 
 footer .copyright {
@@ -1069,6 +1090,21 @@ footer .copyright {
 footer .copyright p {
     margin-bottom: 0px;
     margin-top: 16px;
+}
+
+footer .sMedia a {
+    font-size: 35px;
+    padding-right: 10px;
+    color: #b000b2;
+    transition: .3s;
+}
+
+footer .sMedia a:hover {
+    color: #fff;
+}
+
+footer .contactInfo {
+    font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
