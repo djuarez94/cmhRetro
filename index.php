@@ -6,6 +6,7 @@
         <title>CMH Retro | Home</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -252,9 +253,10 @@
 				<div class="footerDiv connect">
 					<h4>Connect with me</h4>
 					<div class="sMedia">
-						<a href="#">Facebook</a>
-						<a href="#">Instagram</a>
-						<a href="#">Twitter</a>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
 					</div>
 					<div class="contactInfo">
 						<p>cmhretro@gmail.com</p>
