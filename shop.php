@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CMH Retro | Shop</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -150,10 +150,10 @@
 				<div class="mainFooterDiv">
 					<div class="footerDiv pages">
 						<h4>My site</h4>
-						<a href="#">Home</a>
-						<a href="#">News</a>
-						<a href="#">Contact</a>
-						<a href="#">Shop</a>
+						<a href="index.php">Home</a>
+						<a href="news.php">News</a>
+						<a href="contact.php">Contact</a>
+						<a href="shop.php">Shop</a>
 					</div>
 					<div class="footerDiv connect">
 						<h4>Connect with me</h4>

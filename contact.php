@@ -36,7 +36,7 @@
 			<section>
 				<div class="parallax4 gOverlay">
 					<div class="parallaxText slideLeft">
-						<h1>Contact Title</h1>
+						<h1>Be Apart of the Movement!</h1>
 					</div>
 				</div>
 			</section>
@@ -70,10 +70,10 @@
 				<div class="mainFooterDiv">
 					<div class="footerDiv pages">
 						<h4>My site</h4>
-						<a href="#">Home</a>
-						<a href="#">News</a>
-						<a href="#">Contact</a>
-						<a href="#">Shop</a>
+						<a href="index.php">Home</a>
+						<a href="news.php">News</a>
+						<a href="contact.php">Contact</a>
+						<a href="shop.php">Shop</a>
 					</div>
 					<div class="footerDiv connect">
 						<h4>Connect with me</h4>

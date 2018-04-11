@@ -24,7 +24,7 @@
   				</div>
   				<div class="collapse navbar-collapse" id="myNavbar">
   				  <ul class="nav navbar-nav navbar-right">
-  					<li class="active"><a href="home.php">Home</a></li>
+  					<li class="active"><a href="index.php">Home</a></li>
   					<li><a href="news.php">News</a></li>
   					<li><a href="contact.php">Contact</a></li>
   					<li><a href="shop.php">Shop</a></li>
@@ -181,7 +181,7 @@
 					</div>
 			</section>
 			<section id="video">
-					<div class="gSkew"></div>
+					<div class="gSkew2"></div>
 					<div class="divTitle">
 						<h3 class="wHeader">Watch the Movement on YouTube</h3>
 						<p>This is just placeholder text that is being utilized for layout purposes.</p>
@@ -248,10 +248,10 @@
 			<div class="mainFooterDiv">
 				<div class="footerDiv pages">
 					<h4>My site</h4>
-					<a href="#">Home</a>
-					<a href="#">News</a>
-					<a href="#">Contact</a>
-					<a href="#">Shop</a>
+					<a href="index.php">Home</a>
+					<a href="news.php">News</a>
+					<a href="contact.php">Contact</a>
+					<a href="shop.php">Shop</a>
 				</div>
 				<div class="footerDiv connect">
 					<h4>Connect with me</h4>
