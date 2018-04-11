@@ -14,6 +14,24 @@ a:hover {
     height: 90vh;
 }
 
+.homeParallax {
+    background-image: url('../img/cmh_performing.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.newsParallax {
+    background-image: url('../img/cmh_performing.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
 .gOverlay {
     position: relative;
 }
@@ -133,7 +151,7 @@ a:hover {
     background-color: #b000b2;
 }
 
-.parallax1 .parallaxText, .parallax2 .parallaxText, .parallax4 .parallaxText, .parallax5 .parallaxText {
+.homeParallax .parallaxText, .newsParallax .parallaxText, .contactParallax .parallaxText, .storeParallax .parallaxText {
     text-align: center;
     width: 300px;
     height: 200px;
@@ -158,8 +176,8 @@ a:hover {
 	animation-name: slideLeft;
 	-webkit-animation-name: slideLeft;
 
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
 
 	animation-timing-function: ease-in-out;
 	-webkit-animation-timing-function: ease-in-out;
@@ -672,6 +690,7 @@ a.button:hover {
 #images .imgDiv {
     position: relative;
     z-index: 1;
+    box-shadow: 0px 10px 15px rgba(0,0,0,.5);
 }
 
 #images .divTitle {
@@ -717,8 +736,8 @@ a.button:hover {
 /*-------------------------------------
 | news.php CSS
 -------------------------------------*/
-.parallax2 {
-    background-image: url('../img/BG_1.jpg');
+.newsParallax {
+    background-image: url('../img/cmh_working.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -912,8 +931,8 @@ a.button:hover {
 /*-------------------------------------
 | contact.php CSS
 -------------------------------------*/
-.parallax4 {
-    background-image: url('../img/BG_1.jpg');
+.contactParallax {
+    background-image: url('../img/cmh_working2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -978,8 +997,8 @@ a.button:hover {
 /*-------------------------------------
 | shop.php CSS
 -------------------------------------*/
-.parallax5 {
-    background-image: url('../img/BG_1.jpg');
+.storeParallax {
+    background-image: url('../img/cmh_shirt.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1087,18 +1106,9 @@ a.button:hover {
 -------------------------------------*/
 
 footer {
-    background-image: linear-gradient(#000, #31680d 25%);
+    background-image: linear-gradient(#31680d, #31680d);
     padding-top: 20px;
     padding-bottom: 40px;
-}
-
-footer .back-to-top {``
-    background-color: #fff;
-    padding: 10px;
-    position: fixed;
-    z-index: 3;
-    bottom: 0px;
-    right: 0px;
 }
 
 footer .footerDiv {
@@ -1113,15 +1123,38 @@ footer .pages a {
     display: block;
     font-size: 16px;
     margin-top: 10px;
+    color: #b000b2;
+    transition: .3s;
 }
 
-footer .footerDiv a {
+footer .footerDiv .sMedia a {
+    color: #b000b2;
+    transition: .3s;
+}
+
+footer .footerDiv .contactInfo a {
     color: #b000b2;
     transition: .3s;
 }
 
 footer .footerDiv a:hover {
     color: #fff;
+}
+
+footer .back-to-top a {
+    color: #b000b2;
+    padding: 10px;
+    position: fixed;
+    z-index: 3;
+    bottom: 0px;
+    right: 15px;
+    font-size: 4em;
+    opacity: .7;
+}
+
+footer .back-to-top a:hover {
+    opacity: 1;
+    color: #b000b2;
 }
 
 footer .copyright {

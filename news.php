@@ -34,7 +34,7 @@
 		</header>
 		<main>
 			<section>
-				<div class="parallax2 gOverlay">
+				<div class="newsParallax gOverlay">
 					<div class="parallaxText slideLeft">
 						<h1>Retro News</h1>
 					</div>
@@ -187,7 +187,7 @@
 							<p><i class="fas fa-mobile"></i> 1.562.457.8934</p>
 						</div>
 						<div class="back-to-top">
-							<a href="#">Back to top^^^</a>
+							<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
 						</div>
 					</div>
 				</div>
