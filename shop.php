@@ -6,6 +6,7 @@
         <title>CMH Retro | Shop</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Cuprum:700" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -19,7 +20,7 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				  </button>
-  				  <a class="navbar-brand" href="#">CMH Retro</a>
+  				  <a class="navbar-brand" href="index.html"><img src="img/png/cmh_logo.png" alt="CMH Logo"></a>
   				</div>
   				<div class="collapse navbar-collapse" id="myNavbar">
   				  <ul class="nav navbar-nav navbar-right">
@@ -45,16 +46,16 @@
 				<div class="shop container">
 					<div id="mixtapes">
 						<h3>Mixtapes</h3>
-						<div class="itemDiv">
+						<div class="itemDiv animateUp">
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -62,13 +63,13 @@
 							</div>
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -78,16 +79,16 @@
 					</div>
 					<div id="prints">
 						<h3>Stickers &amp; Prints</h3>
-						<div class="itemDiv">
+						<div class="itemDiv animateUp">
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -95,13 +96,13 @@
 							</div>
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -111,16 +112,16 @@
 					</div>
 					<div id="apparel">
 						<h3>Apparel</h3>
-						<div class="itemDiv">
+						<div class="itemDiv animateUp">
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -128,13 +129,13 @@
 							</div>
 							<div class="itemSubDiv">
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
 								</div>
 								<div class="shopItem">
-									<img src="img/BG_1.jpg">
+									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
 									<a class="button" href="#">Learn more</a>
@@ -178,7 +179,7 @@
 			</div>
 		</footer>
 	</body>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 </html>

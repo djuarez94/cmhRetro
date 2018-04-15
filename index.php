@@ -4,8 +4,9 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CMH Retro | Home</title>
-		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Cuprum:700" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/magnific.css">
@@ -20,7 +21,7 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				  </button>
-  				  <a class="navbar-brand" href="#">CMH Retro</a>
+  				  <a class="navbar-brand" href="index.html"><img src="img/png/cmh_logo.png" alt="CMH Logo"></a>
   				</div>
   				<div class="collapse navbar-collapse" id="myNavbar">
   				  <ul class="nav navbar-nav navbar-right">
@@ -47,8 +48,8 @@
 					<div class="divTitle">
 						<h3>Stay Updated with the Movement</h3>
 					</div>
-					<div class="container">
-						<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+					<div class="container animateUp">
+						<div id="newsCarousel" class="carousel slide animate" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
 								<li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
@@ -59,7 +60,7 @@
 							<div class="carousel-inner">
 								<div class="item active">
 									<div class="carousel-caption" style="position:static;">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 1</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
 										<a class="button" href="#">Read more</a>
@@ -67,7 +68,7 @@
 								</div>
 								<div class="item">
 									<div class="carousel-caption" style="position:static;">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 2</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
 										<a class="button" href="#">Read more</a>
@@ -75,7 +76,7 @@
 								</div>
 								<div class="item">
 									<div class="carousel-caption" style="position:static;">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 3</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
 										<a class="button" href="#">Read more</a>
@@ -98,14 +99,15 @@
 			<section id="store">
 				<div class="gSkew"></div>
 				<div class="container">
-					<div class="items">
-						<div class="divTitle">
-							<h3 class="wHeader">CMH Retro <br> Online Store</h3>
-							<p>This is just placeholder text that is being utilized for layout purposes.</p>
-						</div>
+					<div class="divTitle">
+						<h3 class="wHeader">CMH Retro <br> Online Store</h3>
+						<p>This is just placeholder text that is being utilized for layout purposes.</p>
+					</div>
+					<div class="items animateUp">
+
 						<div class="mainItem">
 							<div class="itemImg">
-								<img src="img/BG_1.jpg">
+								<img src="img/jpg/BG_1.jpg">
 							</div>
 							<div class="itemDesc">
 								<p id="productName">MainItem Product Name</p>
@@ -118,7 +120,7 @@
 							<div class="itemRow">
 								<div class="subItems">
 									<div class="itemImg">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 									</div>
 									<div class="itemDesc">
 										<p id="productName">SubItem Product Name</p>
@@ -129,7 +131,7 @@
 								</div>
 								<div class="subItems">
 									<div class="itemImg">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 									</div>
 									<div class="itemDesc">
 										<p id="productName">SubItem Product Name</p>
@@ -142,7 +144,7 @@
 							<div class="itemRow">
 								<div class="subItems">
 									<div class="itemImg">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 									</div>
 									<div class="itemDesc">
 										<p id="productName">SubItem Product Name</p>
@@ -153,7 +155,7 @@
 								</div>
 								<div class="subItems">
 									<div class="itemImg">
-										<img src="img/BG_1.jpg">
+										<img src="img/jpg/BG_1.jpg">
 									</div>
 									<div class="itemDesc">
 										<p id="productName">SubItem Product Name</p>
@@ -169,15 +171,15 @@
 			</section>
 			<section id="music">
 					<div class="wSkew2"></div>
-					<div class="musicDiv">
+					<div class="container musicDiv">
 						<div class="divTitle">
 							<h3>Listen on SoundCloud</h3>
 							<p>This is just placeholder text that is being utilized for layout purposes.</p>
 						</div>
-						<div id="soundcloud">
-
-						</div>
+						<div id="soundcloud" class="animateUp">
 						<a href="#" class="button">Follow</a>
+						</div>
+
 					</div>
 			</section>
 			<section id="video">
@@ -186,7 +188,7 @@
 						<h3 class="wHeader">Watch the Movement on YouTube</h3>
 						<p>This is just placeholder text that is being utilized for layout purposes.</p>
 					</div>
-					<div id="videoCarousel" class="carousel slide" data-ride="carousel">
+					<div id="videoCarousel" class="carousel slide animateUp" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
@@ -234,7 +236,7 @@
 						<h3>Follow @cmhretro</h3>
 						<p>This is just placeholder text that is being utilized for layout purposes.</p>
 					</div>
-					<div class="container">
+					<div class="container animateUp">
 				      <div id="instafeed" class="row gallery">
 
 				      </div>

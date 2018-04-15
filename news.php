@@ -6,6 +6,7 @@
         <title>CMH Retro | News</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Cuprum:700" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -19,7 +20,7 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				  </button>
-  				  <a class="navbar-brand" href="#">CMH Retro</a>
+  				  <a class="navbar-brand" href="index.html"><img src="img/png/cmh_logo.png" alt="CMH Logo"></a>
   				</div>
   				<div class="collapse navbar-collapse" id="myNavbar">
   				  <ul class="nav navbar-nav navbar-right">
@@ -42,10 +43,10 @@
 			</section>
 			<section id="stories">
 				<div class="wSkew"></div>
-				<div class="container">
+				<div class="container animateUp">
 					<div class="mainStory">
 						<div class="storyImg">
-							<img src="img/BG_1.jpg">
+							<img src="img/jpg/BG_1.jpg">
 						</div>
 						<div class="storyDesc">
 							<h3>Main News Title</h3>
@@ -57,7 +58,7 @@
 					<div class="subStoryDiv">
 						<div class="subStory">
 							<div class="storyImg">
-								<img src="img/BG_1.jpg">
+								<img src="img/jpg/BG_1.jpg">
 							</div>
 							<div class="storyDesc">
 								<h4>Sub News Title</h4>
@@ -68,7 +69,7 @@
 						</div>
 						<div class="subStory">
 							<div class="storyImg">
-								<img src="img/BG_1.jpg">
+								<img src="img/jpg/BG_1.jpg">
 							</div>
 							<div class="storyDesc">
 								<h4>Sub News Title</h4>
@@ -79,7 +80,7 @@
 						</div>
 						<div class="subStory">
 							<div class="storyImg">
-								<img src="img/BG_1.jpg">
+								<img src="img/jpg/BG_1.jpg">
 							</div>
 							<div class="storyDesc">
 								<h4>Sub News Title</h4>
@@ -90,7 +91,7 @@
 						</div>
 						<div class="subStory">
 							<div class="storyImg">
-								<img src="img/BG_1.jpg">
+								<img src="img/jpg/BG_1.jpg">
 							</div>
 							<div class="storyDesc">
 								<h4>Sub News Title</h4>
@@ -113,7 +114,7 @@
 					<div class="container">
 						<div class="eventDiv">
 							<h3>Upcoming Events</h3>
-							<ul>
+							<ul class="animateUp">
 								<li>
 									<div class="eventItem">
 										<div class="event">
@@ -197,7 +198,7 @@
 			</div>
 		</footer>
 	</body>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 </html>

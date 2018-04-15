@@ -1,12 +1,19 @@
 /*-------------------------------------
 | index.php CSS
 -------------------------------------*/
+a {font-family: 'Cuprum', sans-serif;}
+
 a:hover {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+}
+
 .parallax1 {
-    background-image: url('../img/BG_1.jpg');
+    background-image: url('../img/jpg/BG_1.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +22,7 @@ a:hover {
 }
 
 .homeParallax {
-    background-image: url('../img/cmh_performing.jpg');
+    background-image: url('../img/jpg/cmh_performing.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +31,7 @@ a:hover {
 }
 
 .newsParallax {
-    background-image: url('../img/cmh_performing.jpg');
+    background-image: url('../img/jpg/cmh_performing.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,10 +54,15 @@ a:hover {
     opacity: .3;
 }
 
-.navbar {
+.navbar-inverse {
     margin-bottom: 0px;
     background-color: #fff;
     border: none;
+    padding-bottom: 30px;
+}
+
+.navbar-brand img {
+    width: 50px;
 }
 
 .navbar-nav {
@@ -60,14 +72,15 @@ a:hover {
 .navbar-inverse .navbar-toggle {
     border: none;
     background-color: rgba(176, 0, 178, 0);
+    top: 18px;
 }
 
 .navbar-inverse .navbar-toggle:hover {
-    background-color: rgba(176, 0, 178, .2);
+    background-color: rgba(176, 0, 178, .1);
 }
 
 .navbar-inverse .navbar-toggle:focus {
-    background-color: rgba(176, 0, 178, .2);
+    background-color: rgba(176, 0, 178, .1);
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
@@ -76,25 +89,59 @@ a:hover {
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border: none;
+    margin-top: 20px;
 }
 
 #myNavbar ul li {
     text-align: center;
+    font-family: 'Cuprum', sans-serif;
+}
+
+#myNavbar ul li.active a{
+    background-color: #b000b2;
+    color: #fff;
+}
+
+#myNavbar ul li a {
+    color: #b000b2;
+    background-color: #fff;
+    transition: .3s;
+    font-size: 18px;
+
+}
+
+#myNavbar ul li a:hover {
+    color: #fff;
+    background-color: #b000b2;
 }
 
 @media only screen and (min-width: 768px) {
 
+    .navbar-inverse {
+        margin-bottom: 0px;
+        background-color: #fff;
+        border: none;
+        height: 130px;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    #myNavbar .navbar-right {
+        margin-top: 40px;
+    }
+
     #myNavbar ul li.active a{
         background-color: #fff!important;
         color: #b000b2!important;
-        overflow: hidden;
     }
 
     #myNavbar ul li.active a:before{
         content: '';
         position: absolute;
         left: 0px;
-        top: 40px;
+        top: 45px;
         width: 100%;
         height: 100%;
         background-color: #b000b2;
@@ -116,7 +163,7 @@ a:hover {
         content: '';
         position: absolute;
         left: 0px;
-        top: 50px;
+        top: 90px;
         width: 100%;
         height: 100%;
         background-color: #b000b2;
@@ -127,28 +174,12 @@ a:hover {
         content: '';
         position: absolute;
         left: 0px;
-        top: 40px;
+        top: 45px;
         width: 100%;
         height: 100%;
         background-color: #b000b2;
         transition: .3s;
     }
-}
-
-#myNavbar ul li.active a{
-    background-color: #b000b2;
-    color: #fff;
-}
-
-#myNavbar ul li a {
-    color: #b000b2;
-    background-color: #fff;
-    transition: .3s;
-}
-
-#myNavbar ul li a:hover {
-    color: #fff;
-    background-color: #b000b2;
 }
 
 .homeParallax .parallaxText, .newsParallax .parallaxText, .contactParallax .parallaxText, .storeParallax .parallaxText {
@@ -168,10 +199,15 @@ a:hover {
     visibility: hidden;
 }
 
-.parallaxText h1, .parallaxText h4{
+.parallaxText h1{
     color: #fff;
+    font-family: 'Coda Caption', sans-serif;
 }
 
+.parallaxText h4{
+    color: #fff;
+    font-family: 'Cuprum', sans-serif;
+}
 .slideLeft{
 	animation-name: slideLeft;
 	-webkit-animation-name: slideLeft;
@@ -190,44 +226,68 @@ a:hover {
 		transform: translateX(150%);
         opacity: 0;
 	}
-	50%{
-		transform: translateX(-8%);
-	}
-	65%{
-		transform: translateX(4%);
-	}
-	80%{
-		transform: translateX(-4%);
-        opacity: 1;
-	}
-	95%{
-		transform: translateX(2%);
-	}
 	100% {
 		transform: translateX(0%);
+        opacity: 1;
 	}
 }
 
 @-webkit-keyframes slideLeft {
 	0% {
 		-webkit-transform: translateX(150%);
-	}
-	50%{
-		-webkit-transform: translateX(-8%);
-	}
-	65%{
-		-webkit-transform: translateX(4%);
-	}
-	80%{
-		-webkit-transform: translateX(-4%);
-	}
-	95%{
-		-webkit-transform: translateX(2%);
+        opacity: 0;
 	}
 	100% {
 		-webkit-transform: translateX(0%);
+        opacity: 1;
 	}
 }
+
+.animateUp {
+    visibility: hidden;
+}
+
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(150%);
+        opacity: 0;
+	}
+	65%{
+		transform: translateY(3%);
+	}
+	100% {
+		transform: translateY(0%);
+        opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(150%);
+        opacity: 0;
+	}
+	65%{
+		-webkit-transform: translateY(3%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+        opacity: 1;
+	}
+}
+
 
 
 .divTitle {
@@ -243,6 +303,7 @@ margin-left: 25px;
 margin-right: 25px;
 padding-top: 30px;
 visibility: hidden;
+font-family: 'Coda Caption', sans-serif;
 }
 
 .divTitle h3.wHeader {
@@ -333,7 +394,7 @@ visibility: hidden;
 }
 
 .wSkew2 {
-    box-shadow: 0px -8px 15px rgba(0,0,0,.5);
+    box-shadow: 0px -10px 15px rgba(0,0,0,.5);
 }
 
 #newsCarousel {
@@ -346,6 +407,10 @@ visibility: hidden;
 
 #newsCarousel a.right.carousel-control {
     background-image: none;
+}
+
+#newsCarousel a.left.carousel-control .glyphicon, #newsCarousel a.right.carousel-control .glyphicon{
+    color: #b000b2;
 }
 
 #newsCarousel .carousel-caption {
@@ -370,7 +435,7 @@ visibility: hidden;
 }
 
 #newsCarousel .carousel-inner .carousel-caption p {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 8px;
     margin-left: 60px;
     margin-right: 60px;
@@ -392,7 +457,7 @@ visibility: hidden;
 
 #store {
     position: relative;
-    height: 1300px;
+    height: 1600px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -451,13 +516,13 @@ visibility: hidden;
     z-index: 2;
 }
 
-#store .items p {
+#store  p {
     color: #fff;
     text-align: center;
 }
 
 #store .divTitle p {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 8px;
     padding-bottom: 30px;
     margin-left: 60px;
@@ -500,7 +565,7 @@ visibility: hidden;
 }
 
 #store .mainItem .itemDesc #productName {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #store .subItemDiv {
@@ -529,7 +594,7 @@ visibility: hidden;
 }
 
 #store .subItemDiv .subItems .itemDesc #productName {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -582,7 +647,7 @@ visibility: hidden;
 }
 
 #music .divTitle p {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 8px;
     padding-bottom: 30px;
     margin-left: 60px;
@@ -675,7 +740,7 @@ a.button:hover {
 }
 
 #video .divTitle p {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 8px;
     padding-bottom: 30px;
     margin-left: 60px;
@@ -702,7 +767,7 @@ a.button:hover {
 }
 
 #images .divTitle p {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 8px;
     padding-bottom: 30px;
     margin-left: 60px;
@@ -737,7 +802,7 @@ a.button:hover {
 | news.php CSS
 -------------------------------------*/
 .newsParallax {
-    background-image: url('../img/cmh_working.jpg');
+    background-image: url('../img/jpg/cmh_working.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -746,7 +811,7 @@ a.button:hover {
 }
 
 .parallax3 {
-    background-image: url('../img/BG_1.jpg');
+    background-image: url('../img/jpg/BG_1.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -759,6 +824,10 @@ a.button:hover {
 #stories {
     position: relative;
     height: 1725px;
+}
+
+.eventDiv h3 {
+    font-family: 'Coda Caption', sans-serif;
 }
 
 @media only screen and (min-width: 670px) {
@@ -932,7 +1001,7 @@ a.button:hover {
 | contact.php CSS
 -------------------------------------*/
 .contactParallax {
-    background-image: url('../img/cmh_working2.jpg');
+    background-image: url('../img/jpg/cmh_working2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -972,6 +1041,7 @@ a.button:hover {
 
 .contact form label{
     color: #31680d;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .contact input.button {
@@ -988,6 +1058,7 @@ a.button:hover {
     margin-top: 30px;
     margin-bottom: 30px;
     display: block;
+    font-family: 'Cuprum', sans-serif;
 }
 
 .contact input.button:hover {
@@ -998,7 +1069,7 @@ a.button:hover {
 | shop.php CSS
 -------------------------------------*/
 .storeParallax {
-    background-image: url('../img/cmh_shirt.jpg');
+    background-image: url('../img/jpg/cmh_shirt.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1020,6 +1091,7 @@ a.button:hover {
     color: #31680d;
     margin-top: 0px;
     padding-top: 30px;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 #mixtapes .itemDiv {
@@ -1123,12 +1195,16 @@ footer .pages a {
     display: block;
     font-size: 16px;
     margin-top: 10px;
-    color: #b000b2;
+    color: #fff;
     transition: .3s;
 }
 
+footer .footerDiv h4 {
+    font-family: 'Coda Caption', sans-serif;
+}
+
 footer .footerDiv .sMedia a {
-    color: #b000b2;
+    color: #fff;
     transition: .3s;
 }
 
@@ -1138,14 +1214,14 @@ footer .footerDiv .contactInfo a {
 }
 
 footer .footerDiv a:hover {
-    color: #fff;
+    color: #b000b2;
 }
 
 footer .back-to-top a {
     color: #b000b2;
     padding: 10px;
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     bottom: 0px;
     right: 15px;
     font-size: 4em;
@@ -1170,12 +1246,12 @@ footer .copyright p {
 footer .sMedia a {
     font-size: 35px;
     padding-right: 10px;
-    color: #b000b2;
+    color: #fff;
     transition: .3s;
 }
 
 footer .sMedia a:hover {
-    color: #fff;
+    color: #b000b2;
 }
 
 footer .contactInfo {
