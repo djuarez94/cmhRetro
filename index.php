@@ -63,7 +63,7 @@
 										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 1</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
-										<a class="button" href="#">Read more</a>
+										<a class="button" href="news.php">Read more</a>
 									</div>
 								</div>
 								<div class="item">
@@ -71,7 +71,7 @@
 										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 2</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
-										<a class="button" href="#">Read more</a>
+										<a class="button" href="news.php">Read more</a>
 									</div>
 								</div>
 								<div class="item">
@@ -79,7 +79,7 @@
 										<img src="img/jpg/BG_1.jpg">
 										<h4>News Title 3</h4>
 										<p>This is just placeholder text. This is where the infromation about the event wil go.</p>
-										<a class="button" href="#">Read more</a>
+										<a class="button" href="news.php">Read more</a>
 									</div>
 								</div>
 							</div>
@@ -113,7 +113,7 @@
 								<p id="productName">MainItem Product Name</p>
 								<p>This is the placeholder text for the item description.</p>
 								<p id="price"></p>
-								<a class="button" href="#">See more</a>
+								<a class="button" href="shop.php">See more</a>
 							</div>
 						</div>
 						<div class="subItemDiv">
@@ -126,7 +126,7 @@
 										<p id="productName">SubItem Product Name</p>
 										<p>This is the placeholder text for the item description.</p>
 										<p id="price"></p>
-										<a class="button" href="#">See more</a>
+										<a class="button" href="shop.php">See more</a>
 									</div>
 								</div>
 								<div class="subItems">
@@ -137,7 +137,7 @@
 										<p id="productName">SubItem Product Name</p>
 										<p>This is the placeholder text for the item description.</p>
 										<p id="price"></p>
-										<a class="button" href="#">See more</a>
+										<a class="button" href="shop.php">See more</a>
 									</div>
 								</div>
 							</div>
@@ -150,7 +150,7 @@
 										<p id="productName">SubItem Product Name</p>
 										<p>This is the placeholder text for the item description.</p>
 										<p id="price"></p>
-										<a class="button" href="#">See more</a>
+										<a class="button" href="shop.php">See more</a>
 									</div>
 								</div>
 								<div class="subItems">
@@ -161,7 +161,7 @@
 										<p id="productName">SubItem Product Name</p>
 										<p>This is the placeholder text for the item description.</p>
 										<p id="price"></p>
-										<a class="button" href="#">See more</a>
+										<a class="button" href="shop.php">See more</a>
 									</div>
 								</div>
 							</div>
@@ -177,7 +177,7 @@
 							<p>This is just placeholder text that is being utilized for layout purposes.</p>
 						</div>
 						<div id="soundcloud" class="animateUp">
-						<a href="#" class="button">Follow</a>
+						<a href="https://www.soundcloud.com/cmhretro" class="button">Follow</a>
 						</div>
 
 					</div>
@@ -227,7 +227,7 @@
 							<span class="sr-only">Next</span>
 						</a>
 					</div>
-					<a href="#" class="button">Follow</a>
+					<a href="https://www.youtube.com/channel/UCjpCidr5juKMwbtCCrcNofg" class="button">Follow</a>
 			</section>
 			<section id="images">
 				<div class="wSkew2"></div>
@@ -241,7 +241,7 @@
 
 				      </div>
 				    </div>
-					<a href="#" class="button">Follow</a>
+					<a href="https://www.instagram.com/cmhretro/" class="button">Follow @cmhretro</a>
 				</div>
 			</section>
 		</main>
@@ -258,10 +258,11 @@
 				<div class="footerDiv connect">
 					<h4>Connect with me</h4>
 					<div class="sMedia">
-						<a href="#"><i class="fab fa-facebook-square"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-twitter-square"></i></a>
-						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.facebook.com/CMHretro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/cmhretro/" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/cmhretro/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+						<a href="https://www.youtube.com/channel/UCjpCidr5juKMwbtCCrcNofg" target="_blank"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.soundcloud.com/cmhretro" target="_blank"><i class="fab fa-soundcloud"></i></a>
 					</div>
 					<div class="contactInfo">
 						<p><i class="fas fa-envelope"></i> cmhretro@gmail.com</p>

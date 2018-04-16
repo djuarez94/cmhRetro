@@ -178,10 +178,11 @@
 					<div class="footerDiv connect">
 						<h4>Connect with me</h4>
 						<div class="sMedia">
-							<a href="#"><i class="fab fa-facebook-square"></i></a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-							<a href="#"><i class="fab fa-twitter-square"></i></a>
-							<a href="#"><i class="fab fa-youtube"></i></a>
+							<a href="https://www.facebook.com/CMHretro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+							<a href="https://www.instagram.com/cmhretro/" target="_blank"><i class="fab fa-instagram"></i></a>
+							<a href="https://twitter.com/cmhretro/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://www.youtube.com/channel/UCjpCidr5juKMwbtCCrcNofg" target="_blank"><i class="fab fa-youtube"></i></a>
+							<a href="https://www.soundcloud.com/cmhretro" target="_blank"><i class="fab fa-soundcloud"></i></a>
 						</div>
 						<div class="contactInfo">
 							<p><i class="fas fa-envelope"></i> cmhretro@gmail.com</p>
