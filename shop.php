@@ -43,6 +43,286 @@
 			</section>
 			<section id="shop">
 				<div class="wSkew2"></div>
+				<section>
+					<section>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="mixtapeModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Mixapes 1</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="mixtapeModal2" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Mixapes 2</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="mixtapeModal3" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Mixapes 3</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="mixtapeModal4" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Mixapes 4</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="printsModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Prints</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="printsModal2" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Prints 2</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="printsModal3" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Prints 3</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="printsModal4" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Prints 4</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="apparelModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Apparel</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="apparelModal2" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Apparel 2</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="apparelModal3" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Apparel 3</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<!-- Modal -->
+							<div class="modal fade" id="apparelModal4" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Apparel 4</h4>
+											</div>
+											<div class="modal-body">
+												<img src="img/jpg/BG_1.jpg" width="100%">
+												<p id="productName">Product Name</p>
+												<p id="price">$0.00</p>
+												<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
 				<div class="shop container">
 					<div id="mixtapes">
 						<h3>Mixtapes</h3>
@@ -52,13 +332,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#mixtapeModal">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#mixtapeModal2">Learn More</button>
 								</div>
 							</div>
 							<div class="itemSubDiv">
@@ -66,13 +346,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#mixtapeModal3">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#mixtapeModal4">Learn More</button>
 								</div>
 							</div>
 						</div>
@@ -85,13 +365,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#printsModal">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#printsModal2">Learn More</button>
 								</div>
 							</div>
 							<div class="itemSubDiv">
@@ -99,13 +379,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#printsModal3">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#printsModal4">Learn More</button>
 								</div>
 							</div>
 						</div>
@@ -118,13 +398,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#apparelModal">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#apparelModal2">Learn More</button>
 								</div>
 							</div>
 							<div class="itemSubDiv">
@@ -132,13 +412,13 @@
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#apparelModal3">Learn More</button>
 								</div>
 								<div class="shopItem">
 									<img src="img/jpg/BG_1.jpg">
 									<p id="productName">Product Name</p>
 									<p id="price">$0.00</p>
-									<a class="button" href="#">Learn more</a>
+									<button type="button" class="btn button" data-toggle="modal" data-target="#apparelModal4">Learn More</button>
 								</div>
 							</div>
 						</div>

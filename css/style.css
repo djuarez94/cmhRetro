@@ -7,25 +7,6 @@ a:hover {
     text-decoration: none;
 }
 
-#lightbox .modal-content {
-    display: inline-block;
-    text-align: center;
-}
-
-#lightbox .close {
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 25, 25);
-    padding: 5px 8px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    top: -15px;
-    right: -55px;
-
-    z-index:1032;
-}
-
 p {
     font-family: 'Cuprum', sans-serif;
     font-size: 18px;
@@ -691,6 +672,30 @@ a.button:hover {
     animation: pulse 1s infinite;
 }
 
+button.button {
+    background: #b000b2;
+    box-shadow: 0 0 0 rgba(176, 0, 178, .6);
+    animation: none;
+
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display:inline-block;
+}
+
+button.button:hover {
+    animation: pulse 1s infinite;
+    color: #fff;
+}
+
+button.button:focus {
+    animation: pulse 1s infinite;
+    color: #fff;
+}
+
 @-webkit-keyframes pulse {
     0% {-webkit-box-shadow: 0 0 0 0 rgba(176, 0, 178, .6);}
     70% {-webkit-box-shadow: 0 0 0 13px rgba(176, 0, 178, 0);}
@@ -843,6 +848,8 @@ a.button:hover {
 #stories {
     position: relative;
     height: 1835px;
+    padding-top: 6em;
+    margin-bottom: 8em;
 }
 
 .eventDiv h3 {
@@ -876,6 +883,8 @@ a.button:hover {
 
     #stories .storyImg img {
         width: 70%!important;
+        display: block;
+        margin: 0px auto;
     }
 }
 
@@ -914,9 +923,6 @@ a.button:hover {
 }
 
 #stories .subStory {
-    display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 
@@ -932,13 +938,13 @@ a.button:hover {
 
 #stories .subStory .storyDesc {
     flex: 1;
-    text-align: right;
+    text-align: center;
     padding-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
     #stories .subStoryDiv {
-        display: flex;
+        /*display: flex;*/
     }
 
     #stories .subStory {
@@ -1098,6 +1104,8 @@ a.button:hover {
 
 #shop {
     position: relative;
+    padding-top: 6em;
+    margin-bottom: 8em;
 }
 
 #shop .shop {
@@ -1116,7 +1124,7 @@ a.button:hover {
 #mixtapes .itemDiv {
     display: flex;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 6em;
 }
 
 #mixtapes .itemDiv .itemSubDiv {

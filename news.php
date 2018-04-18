@@ -52,11 +52,11 @@
 							<h3>Main News Title</h3>
 							<p id="publishDate">February 28, 2018</p>
 							<p>This is description placeholdr text that is being utitlized for layout purposes.</p>
-							<a class="button" href="#">Read more</a>
+							<button type="button" class="btn button" data-toggle="modal" data-target="#myModalMain">Read More</button>
 						</div>
 					</div>
-					<div class="subStoryDiv">
-						<div class="subStory">
+					<div class="container subStoryDiv">
+						<div class="col-md-3 col-sm-6 col-xs-12 subStory">
 							<div class="storyImg">
 								<img src="img/jpg/BG_1.jpg">
 							</div>
@@ -64,10 +64,10 @@
 								<h4>Sub News Title</h4>
 								<p id="publishDate">February 28, 2018</p>
 								<p>This is description placeholdr text that is being utitlized for layout purposes.</p>
-								<a class="button" href="#">Read more</a>
+								<button type="button" class="btn button" data-toggle="modal" data-target="#myModal">Read More</button>
 							</div>
 						</div>
-						<div class="subStory">
+						<div class="col-md-3 col-sm-6 col-xs-12 subStory">
 							<div class="storyImg">
 								<img src="img/jpg/BG_1.jpg">
 							</div>
@@ -75,10 +75,10 @@
 								<h4>Sub News Title</h4>
 								<p id="publishDate">February 28, 2018</p>
 								<p>This is description placeholdr text that is being utitlized for layout purposes.</p>
-								<a class="button" href="#">Read more</a>
+								<button type="button" class="btn button" data-toggle="modal" data-target="#myModal2">Read More</button>
 							</div>
 						</div>
-						<div class="subStory">
+						<div class="col-md-3 col-sm-6 col-xs-12 subStory">
 							<div class="storyImg">
 								<img src="img/jpg/BG_1.jpg">
 							</div>
@@ -86,10 +86,10 @@
 								<h4>Sub News Title</h4>
 								<p id="publishDate">February 28, 2018</p>
 								<p>This is description placeholdr text that is being utitlized for layout purposes.</p>
-								<a class="button" href="#">Read more</a>
+								<button type="button" class="btn button" data-toggle="modal" data-target="#myModal3">Read More</button>
 							</div>
 						</div>
-						<div class="subStory">
+						<div class="col-md-3 col-sm-6 col-xs-12 subStory">
 							<div class="storyImg">
 								<img src="img/jpg/BG_1.jpg">
 							</div>
@@ -97,10 +97,137 @@
 								<h4>Sub News Title</h4>
 								<p id="publishDate">February 28, 2018</p>
 								<p>This is description placeholdr text that is being utitlized for layout purposes.</p>
-								<a class="button" href="#">Read more</a>
+								<button type="button" class="btn button" data-toggle="modal" data-target="#myModal4">Read More</button>
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<!-- Modal -->
+					<div class="modal fade" id="myModalMain" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Main News Title</h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/jpg/BG_1.jpg" width="100%">
+										<p id="date">February 28,2018</p>
+										<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="container">
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sub News Title M1</h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/jpg/BG_1.jpg" width="100%">
+										<p id="date">February 28,2018</p>
+										<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="container">
+					<!-- Modal -->
+					<div class="modal fade" id="myModal2" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sub News Title M2</h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/jpg/BG_1.jpg" width="100%">
+										<p id="date">February 28,2018</p>
+										<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="container">
+					<!-- Modal -->
+					<div class="modal fade" id="myModal3" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sub News Title M3</h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/jpg/BG_1.jpg" width="100%">
+										<p id="date">February 28,2018</p>
+										<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="container">
+					<!-- Modal -->
+					<div class="modal fade" id="myModal4" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sub News Title M4</h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/jpg/BG_1.jpg" width="100%">
+										<p id="date">February 28,2018</p>
+										<p id="descr">This is description placeholder text that is being utilized for layout purposes.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+
 				</div>
 			</section>
 			<section id="events">
